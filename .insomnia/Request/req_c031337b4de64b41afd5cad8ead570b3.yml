@@ -1,0 +1,44 @@
+_id: req_c031337b4de64b41afd5cad8ead570b3
+type: Request
+parentId: fld_2ec2c93642b8465f979ebf6f6d4c316c
+modified: 1685602055303
+created: 1685600375109
+url: http://localhost:8080/cirrus/v1/dataset/autoSuggestedQueries
+name: dataset/v1
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_d417511ccaa44b5aa24d879a20303630
+    name: org_id
+    value: "16466219"
+    description: ""
+  - id: pair_9b17fd11463940f7838e4ee45d9d8b1f
+    name: dataset
+    value: _tbl2000000002079
+    description: ""
+headers:
+  - id: pair_83d531766e3e4629a447ee08285eec0b
+    name: X-ZCSRF-TOKEN
+    value: cirrus_param_csr=ca9db6eb84b936ad3ad835038282ab5591cfd27632e76c4e45f03c24e10cae6ffdc38bcfb4f4b1dd8c0da57f05e464683281c30a3c9f1b237a1928ff8cc03c9d
+    description: ""
+  - id: pair_6cab8f20ebc64d458031a0eadb109cf3
+    name: Cookie
+    value: org.cups.sid=2c1fc92d477863712bc1b6675be92ea9;
+      ajs_user_id=bb215b86-7fb0-5b0e-ae8d-5fefe305bed7;
+      ajs_anonymous_id=19ada898-8e70-4e39-8dc9-10c61c1418ae;
+      _cseziamadt=bab56081aff4080c5b0e4c8cc5e815a2c6472c58e0f9a101b4c11d375ccc44779588f1bbed50bcd355af72d6e84171439d78966910f9c00a78c83d8b6c81c901;
+      _cseziambdt=74d5c4f4543929d7ec6187ce64511081a5d87064eba91159433b8145fa3dd454875085be9eed08ca8594a82a43a0d5e2838acfbb24833eca4d09d40c977dd58c;
+      cirrus_csr=ca9db6eb84b936ad3ad835038282ab5591cfd27632e76c4e45f03c24e10cae6ffdc38bcfb4f4b1dd8c0da57f05e464683281c30a3c9f1b237a1928ff8cc03c9d;
+      _zcsr_tmp=ca9db6eb84b936ad3ad835038282ab5591cfd27632e76c4e45f03c24e10cae6ffdc38bcfb4f4b1dd8c0da57f05e464683281c30a3c9f1b237a1928ff8cc03c9d;
+      JSESSIONID=8D8CA2950670EF8FE8F20CBC08A3C6DA
+    description: ""
+authentication: {}
+metaSortKey: -1685521752242
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

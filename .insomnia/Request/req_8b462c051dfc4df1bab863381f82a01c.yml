@@ -1,0 +1,47 @@
+_id: req_8b462c051dfc4df1bab863381f82a01c
+type: Request
+parentId: fld_dc0d49a7b2d44374a2b5f995d2946941
+modified: 1686291862713
+created: 1685608494952
+url: http://localhost:8080/dataset/v2/user/datasetList
+name: getAllDatasetListForUser
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_9875f96df0b84de6986434ccceb9823e
+    name: org_id
+    value: "16467658"
+    description: ""
+  - id: pair_4981ce8d858440f2b1d79e2936ebc09c
+    name: extraInfo
+    value: "false"
+    description: ""
+    disabled: false
+headers:
+  - id: pair_a6361472e91f4feab57e85f3d739a219
+    name: X-ZCSRF-TOKEN
+    value: cirrus_param_csr=ca9db6eb84b936ad3ad835038282ab5591cfd27632e76c4e45f03c24e10cae6ffdc38bcfb4f4b1dd8c0da57f05e464683281c30a3c9f1b237a1928ff8cc03c9d
+    description: ""
+  - id: pair_9d5f7593e8ee4569b5965b2c4b0a9c15
+    name: Cookie
+    value: org.cups.sid=2c1fc92d477863712bc1b6675be92ea9;
+      ajs_user_id=bb215b86-7fb0-5b0e-ae8d-5fefe305bed7;
+      ajs_anonymous_id=19ada898-8e70-4e39-8dc9-10c61c1418ae;
+      _cseziamadt=bab56081aff4080c5b0e4c8cc5e815a2c6472c58e0f9a101b4c11d375ccc44779588f1bbed50bcd355af72d6e84171439d78966910f9c00a78c83d8b6c81c901;
+      _cseziambdt=74d5c4f4543929d7ec6187ce64511081a5d87064eba91159433b8145fa3dd454875085be9eed08ca8594a82a43a0d5e2838acfbb24833eca4d09d40c977dd58c;
+      cirrus_csr=ca9db6eb84b936ad3ad835038282ab5591cfd27632e76c4e45f03c24e10cae6ffdc38bcfb4f4b1dd8c0da57f05e464683281c30a3c9f1b237a1928ff8cc03c9d;
+      _zcsr_tmp=ca9db6eb84b936ad3ad835038282ab5591cfd27632e76c4e45f03c24e10cae6ffdc38bcfb4f4b1dd8c0da57f05e464683281c30a3c9f1b237a1928ff8cc03c9d;
+      username-localhost-8888="2|1:0|10:1685980490|23:username-localhost-8888|200:eyJ1c2VybmFtZSI6ICJiZjM1M2FiNTgzNGE0NGViOGUwZTJjMmJlNjljNGM0MiIsICJuYW1lIjogIkFub255bW91cyBMeXNpdGhlYSIsICJkaXNwbGF5X25hbWUiOiAiQW5vbnltb3VzIEx5c2l0aGVhIiwgImluaXRpYWxzIjogIkFMIiwgImNvbG9yIjogbnVsbH0=|a7bd034dcaae58bdf7f1eca57910b7451719ba728ea113b84178b9d3b1df91a1";
+      _xsrf=2|863a1515|82ce974842032b4ba4a32f4192ea67cd|1685980490;
+      JSESSIONID=E2706B665D40E43620A3FADF6BB3381F
+    description: ""
+authentication: {}
+metaSortKey: -1685521752251.375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

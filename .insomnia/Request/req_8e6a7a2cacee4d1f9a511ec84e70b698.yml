@@ -1,0 +1,52 @@
+_id: req_8e6a7a2cacee4d1f9a511ec84e70b698
+type: Request
+parentId: wrk_a3cf7409b70a4f569c144df729e5bd6a
+modified: 1685599994136
+created: 1685098498133
+url: http://localhost:8080/dataset/v2/dataset/droplet/autoSuggestedQueries
+name: New Request
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_6bf35884598b4d5dbd98bf856cee6d89
+    name: org_id
+    value: "16466219"
+    description: ""
+    disabled: false
+  - id: pair_0a33ba0b0b7e4825bb07547f6f59a60f
+    name: dataset
+    value: _tbl2000000002079
+    description: ""
+  - id: pair_b0118d1dc72447da913126f58f829133
+    name: config
+    value: ""
+    description: ""
+    disabled: true
+headers:
+  - id: pair_a74ea77041504e82a020ff1bb5305c48
+    name: X-ZCSRF-TOKEN
+    value: cirrus_param_csr=ca9db6eb84b936ad3ad835038282ab5591cfd27632e76c4e45f03c24e10cae6ffdc38bcfb4f4b1dd8c0da57f05e464683281c30a3c9f1b237a1928ff8cc03c9d
+    description: ""
+    disabled: false
+  - id: pair_e3e00952414e4c98b0b68cd72ecd92f0
+    name: Cookie
+    value: org.cups.sid=2c1fc92d477863712bc1b6675be92ea9;
+      ajs_user_id=bb215b86-7fb0-5b0e-ae8d-5fefe305bed7;
+      ajs_anonymous_id=19ada898-8e70-4e39-8dc9-10c61c1418ae;
+      _cseziamadt=bab56081aff4080c5b0e4c8cc5e815a2c6472c58e0f9a101b4c11d375ccc44779588f1bbed50bcd355af72d6e84171439d78966910f9c00a78c83d8b6c81c901;
+      _cseziambdt=74d5c4f4543929d7ec6187ce64511081a5d87064eba91159433b8145fa3dd454875085be9eed08ca8594a82a43a0d5e2838acfbb24833eca4d09d40c977dd58c;
+      cirrus_csr=ca9db6eb84b936ad3ad835038282ab5591cfd27632e76c4e45f03c24e10cae6ffdc38bcfb4f4b1dd8c0da57f05e464683281c30a3c9f1b237a1928ff8cc03c9d;
+      _zcsr_tmp=ca9db6eb84b936ad3ad835038282ab5591cfd27632e76c4e45f03c24e10cae6ffdc38bcfb4f4b1dd8c0da57f05e464683281c30a3c9f1b237a1928ff8cc03c9d;
+      JSESSIONID=53F23ACBF690B4EE2366C6CCD5A94764
+    description: ""
+    disabled: false
+authentication: {}
+metaSortKey: -1685098498133
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
