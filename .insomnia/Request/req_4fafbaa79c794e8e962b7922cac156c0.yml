@@ -1,7 +1,7 @@
 _id: req_4fafbaa79c794e8e962b7922cac156c0
 type: Request
 parentId: fld_2ec2c93642b8465f979ebf6f6d4c316c
-modified: 1686570836176
+modified: 1686657346536
 created: 1686298233616
 url: http://localhost:8080/cirrus/v1/dataset/autoSuggestedQueries
 name: autoSuggestQueriesForCluster
@@ -15,7 +15,7 @@ parameters:
     description: ""
   - id: pair_9b17fd11463940f7838e4ee45d9d8b1f
     name: dataSourceLabel
-    value: testRelation
+    value: source2
     description: ""
     disabled: false
   - id: pair_9213fd78edb64b82b13c86f2b9b4ae93
